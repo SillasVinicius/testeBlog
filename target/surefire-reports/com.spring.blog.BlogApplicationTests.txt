@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.blog.BlogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.616 s <<< FAILURE! - in com.spring.blog.BlogApplicationTests
+com.spring.blog.BlogApplicationTests  Time elapsed: 0.614 s  <<< ERROR!
+java.lang.IllegalArgumentException: Unresolvable class definition for class [com.spring.blog.BlogApplication]
+Caused by: java.lang.UnsupportedClassVersionError: com/spring/blog/BlogApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+
